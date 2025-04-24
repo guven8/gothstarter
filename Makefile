@@ -5,4 +5,4 @@ build:
 	@go build -o bin/app .
 
 css:
-	tailwindcss -i views/css/app.css -o public/styles.css --watch
+	node_modules/tailwindcss/lib/cli.js -i views/css/app.css -o public/styles.css --watch
