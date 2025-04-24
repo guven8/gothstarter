@@ -36,5 +36,5 @@ A starter template for building modern web applications with:
    air
 
    # Terminal 3: Watch and compile templates
-   templ generate --watch --proxy=http://localhost:3000
+   make templ
    ```
